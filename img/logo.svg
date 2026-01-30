@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="80" viewBox="0 0 220 80" role="img" aria-label="Gulf Coast Machine Services logo">
+  <defs>
+    <style>
+      .ring{fill:#E11B22}
+      .bg{fill:#002F6C}
+      .derrick{fill:none;stroke:#ffffff;stroke-width:4;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect class="bg" width="220" height="80" rx="8"/>
+  <ellipse class="ring" cx="110" cy="40" rx="92" ry="30"/>
+  <ellipse cx="110" cy="40" rx="80" ry="20" fill="#002F6C"/>
+  <!-- simplified derrick -->
+  <path class="derrick" d="M110 18 l-16 44 h32 l-16 -44 m0 0 v44 m-9 -12 h18 m-22 -10 h26 m-30 -10 h34"/>
+</svg>
+
