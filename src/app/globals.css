@@ -13,10 +13,10 @@
   --cream: #f5f3ef;
   --white: #fafafa;
 
-  /* Accent - Industrial Warning */
-  --warning: #ff8c00;
-  --warning-dark: #e67300;
-  --danger: #ef4444;
+  /* Accent - Brand Red */
+  --warning: #dc2626;
+  --warning-dark: #b91c1c;
+  --danger: #991b1b;
 
   /* Functional */
   --border: #2d2d2d;
@@ -135,8 +135,8 @@ body {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 107, 0, 0.4); }
-  50% { box-shadow: 0 0 0 8px rgba(255, 107, 0, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(220, 38, 38, 0); }
 }
 
 .animate-slide-up {

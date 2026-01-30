@@ -72,8 +72,8 @@ export default function SparkEffect() {
 
         ctx.save();
         ctx.globalAlpha = alpha;
-        ctx.fillStyle = `hsl(${30 + Math.random() * 15}, 100%, ${50 + alpha * 30}%)`;
-        ctx.shadowColor = "#ff8c00";
+        ctx.fillStyle = `hsl(${0 + Math.random() * 10}, 85%, ${45 + alpha * 25}%)`;
+        ctx.shadowColor = "#dc2626";
         ctx.shadowBlur = 8;
         ctx.beginPath();
         ctx.arc(spark.x, spark.y, size, 0, Math.PI * 2);
