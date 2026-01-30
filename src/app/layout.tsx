@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import SparkEffect from "../components/SparkEffect";
 
 export const metadata: Metadata = {
   title: "Gulf Coast Machine Services | 24/7 Industrial Equipment Repair",
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <SparkEffect />
         <Header />
         <main>{children}</main>
         <Footer />
