@@ -8,7 +8,7 @@ export default function Home() {
       title: "Industrial HVAC",
       desc: "Climate control for heavy industry. Repair, maintenance, optimization.",
       icon: (
-        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="square" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
         </svg>
       ),
@@ -18,7 +18,7 @@ export default function Home() {
       title: "Generator Systems",
       desc: "Backup power you can trust. Installation, repair, load testing.",
       icon: (
-        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="square" d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
@@ -28,7 +28,7 @@ export default function Home() {
       title: "Machinery Repair",
       desc: "Production line down? We diagnose fast, fix faster.",
       icon: (
-        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="square" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
           <path strokeLinecap="square" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
@@ -39,7 +39,7 @@ export default function Home() {
       title: "24/7 Emergency",
       desc: "Round-the-clock response. Minimum downtime guaranteed.",
       icon: (
-        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <svg className="size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="square" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
@@ -90,12 +90,12 @@ export default function Home() {
 
               {/* CTAs */}
               <div className="flex flex-wrap gap-4 animate-slide-up delay-300">
-                <Link href="/contact" className="btn-industrial animate-pulse-glow">
+                <a href="tel:+15551234567" className="btn-industrial animate-pulse-glow">
                   <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="square" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  Emergency Line
-                </Link>
+                  Call Now
+                </a>
                 <Link href="/services" className="btn-outline">
                   View Services
                 </Link>
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
 
           {/* Stats Bar */}
-          <div className="mt-20 grid grid-cols-2 md:grid-cols-4 border border-[var(--steel)] divide-x divide-[var(--steel)]">
+          <div className="mt-20 grid grid-cols-2 sm:grid-cols-4 border border-[var(--steel)] divide-x divide-y sm:divide-y-0 divide-[var(--steel)]">
             {stats.map((stat, index) => (
               <div
                 key={stat.label}
@@ -134,7 +134,7 @@ export default function Home() {
                 style={{ animationDelay: `${400 + index * 100}ms` }}
               >
                 <span className="text-display text-3xl text-[var(--warning)] block">{stat.value}</span>
-                <span className="text-mono text-xs text-[var(--cream)]/60 uppercase tracking-wider">{stat.label}</span>
+                <span className="text-mono text-xs text-[var(--cream)]/70 uppercase tracking-wider">{stat.label}</span>
               </div>
             ))}
           </div>
@@ -167,7 +167,7 @@ export default function Home() {
                 className="bg-[var(--charcoal)] p-8 lg:p-12 group hover:bg-[var(--steel)] transition-colors duration-200"
               >
                 <div className="flex items-start justify-between mb-6">
-                  <span className="text-mono text-xs text-[var(--cream)]/60">{service.id}</span>
+                  <span className="text-mono text-xs text-[var(--cream)]/70">{service.id}</span>
                   <div className="text-[var(--cream)]/80 group-hover:text-[var(--warning)] transition-colors">
                     {service.icon}
                   </div>
@@ -290,10 +290,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <h2 className="text-display text-3xl text-[var(--black)] mb-2">
+              <h2 className="text-display text-3xl text-[var(--white)] mb-2">
                 Ready to Work Together?
               </h2>
-              <p className="text-[var(--black)]/70">
+              <p className="text-[var(--white)]">
                 Get a free consultation and quote for your project.
               </p>
             </div>

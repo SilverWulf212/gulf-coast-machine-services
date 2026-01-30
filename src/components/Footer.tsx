@@ -16,7 +16,7 @@ export default function Footer() {
                 <span className="text-display text-xl text-[var(--cream)] tracking-wide block">
                   Gulf Coast
                 </span>
-                <span className="text-mono text-[10px] text-[var(--cream)]/60 tracking-widest uppercase">
+                <span className="text-mono text-[10px] text-[var(--cream)]/70 tracking-widest uppercase">
                   Machine Services
                 </span>
               </div>
@@ -79,7 +79,7 @@ export default function Footer() {
             <h3 className="text-display text-lg text-[var(--cream)] mb-6 tracking-wide">Contact</h3>
             <div className="space-y-4">
               <div>
-                <span className="text-mono text-[10px] text-[var(--cream)]/60 uppercase tracking-widest block mb-1">
+                <span className="text-mono text-[10px] text-[var(--cream)]/70 uppercase tracking-widest block mb-1">
                   Emergency Line
                 </span>
                 <a
@@ -90,7 +90,7 @@ export default function Footer() {
                 </a>
               </div>
               <div>
-                <span className="text-mono text-[10px] text-[var(--cream)]/60 uppercase tracking-widest block mb-1">
+                <span className="text-mono text-[10px] text-[var(--cream)]/70 uppercase tracking-widest block mb-1">
                   Email
                 </span>
                 <a
@@ -101,7 +101,7 @@ export default function Footer() {
                 </a>
               </div>
               <div>
-                <span className="text-mono text-[10px] text-[var(--cream)]/60 uppercase tracking-widest block mb-1">
+                <span className="text-mono text-[10px] text-[var(--cream)]/70 uppercase tracking-widest block mb-1">
                   Address
                 </span>
                 <address className="text-mono text-sm text-[var(--cream)]/80 not-italic">
@@ -118,14 +118,14 @@ export default function Footer() {
       <div className="border-t border-[var(--steel)]">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-mono text-xs text-[var(--cream)]/60">
+            <p className="text-mono text-xs text-[var(--cream)]/70">
               © {new Date().getFullYear()} Gulf Coast Machine Services. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <Link href="/faq" className="text-mono text-xs text-[var(--cream)]/60 hover:text-[var(--warning)] transition-colors">
+              <Link href="/faq" className="text-mono text-xs text-[var(--cream)]/70 hover:text-[var(--warning)] transition-colors">
                 FAQ
               </Link>
-              <Link href="/blog" className="text-mono text-xs text-[var(--cream)]/60 hover:text-[var(--warning)] transition-colors">
+              <Link href="/blog" className="text-mono text-xs text-[var(--cream)]/70 hover:text-[var(--warning)] transition-colors">
                 Blog
               </Link>
             </div>
