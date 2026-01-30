@@ -83,7 +83,7 @@ export default function Home() {
               </h1>
 
               {/* Subhead */}
-              <p className="text-lg text-[var(--silver)] max-w-md mb-10 leading-relaxed animate-slide-up delay-200">
+              <p className="text-lg text-[var(--cream)]/80 max-w-md mb-10 leading-relaxed animate-slide-up delay-200">
                 When your equipment fails, production stops. We get you running again—fast.
                 24/7 emergency response across the Gulf Coast.
               </p>
@@ -134,7 +134,7 @@ export default function Home() {
                 style={{ animationDelay: `${400 + index * 100}ms` }}
               >
                 <span className="text-display text-3xl text-[var(--warning)] block">{stat.value}</span>
-                <span className="text-mono text-xs text-[var(--concrete)] uppercase tracking-wider">{stat.label}</span>
+                <span className="text-mono text-xs text-[var(--cream)]/60 uppercase tracking-wider">{stat.label}</span>
               </div>
             ))}
           </div>
@@ -167,13 +167,13 @@ export default function Home() {
                 className="bg-[var(--charcoal)] p-8 lg:p-12 group hover:bg-[var(--steel)] transition-colors duration-200"
               >
                 <div className="flex items-start justify-between mb-6">
-                  <span className="text-mono text-xs text-[var(--concrete)]">{service.id}</span>
-                  <div className="text-[var(--silver)] group-hover:text-[var(--warning)] transition-colors">
+                  <span className="text-mono text-xs text-[var(--cream)]/60">{service.id}</span>
+                  <div className="text-[var(--cream)]/80 group-hover:text-[var(--warning)] transition-colors">
                     {service.icon}
                   </div>
                 </div>
                 <h3 className="text-display text-2xl text-[var(--cream)] mb-3">{service.title}</h3>
-                <p className="text-[var(--silver)] text-sm leading-relaxed mb-6">{service.desc}</p>
+                <p className="text-[var(--cream)]/80 text-sm leading-relaxed mb-6">{service.desc}</p>
                 <Link
                   href="/services"
                   className="text-mono text-xs text-[var(--warning)] uppercase tracking-wider flex items-center gap-2 group-hover:gap-4 transition-all"
@@ -203,7 +203,7 @@ export default function Home() {
                   We Respond<br />
                   <span className="text-[var(--warning)]">Within Hours</span>
                 </h2>
-                <p className="text-[var(--silver)] max-w-md mb-8">
+                <p className="text-[var(--cream)]/80 max-w-md mb-8">
                   Don&apos;t let equipment failure cost you thousands in lost production.
                   Our emergency team is standing by 24/7.
                 </p>
@@ -249,7 +249,7 @@ export default function Home() {
                 Built For<br />Industry
               </h2>
               <div className="section-divider mb-6" />
-              <p className="text-[var(--silver)] leading-relaxed">
+              <p className="text-[var(--cream)]/80 leading-relaxed">
                 We understand that in industrial operations, every minute of downtime costs money.
                 That&apos;s why we&apos;ve built our entire operation around speed, reliability, and expertise.
               </p>
@@ -277,7 +277,7 @@ export default function Home() {
               ].map((feature, index) => (
                 <div key={feature.title} className="border-l-2 border-[var(--steel)] pl-6 hover:border-[var(--warning)] transition-colors">
                   <h3 className="text-display text-xl text-[var(--cream)] mb-3">{feature.title}</h3>
-                  <p className="text-[var(--silver)] text-sm leading-relaxed">{feature.desc}</p>
+                  <p className="text-[var(--cream)]/80 text-sm leading-relaxed">{feature.desc}</p>
                 </div>
               ))}
             </div>

@@ -61,7 +61,7 @@ export default function Header() {
                 <span className="text-display text-lg text-[var(--cream)] tracking-wide">
                   Gulf Coast
                 </span>
-                <span className="block text-mono text-[10px] text-[var(--concrete)] tracking-widest uppercase">
+                <span className="block text-mono text-[10px] text-[var(--cream)]/60 tracking-widest uppercase">
                   Machine Services
                 </span>
               </div>
@@ -74,7 +74,7 @@ export default function Header() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="relative px-4 py-6 text-mono text-sm text-[var(--silver)] hover:text-[var(--cream)] transition-colors duration-150 uppercase tracking-wider group"
+                      className="relative px-4 py-6 text-mono text-sm text-[var(--cream)]/70 hover:text-[var(--cream)] transition-colors duration-150 uppercase tracking-wider group"
                     >
                       <span className="relative z-10">{link.label}</span>
                       <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[var(--warning)] scale-x-0 group-hover:scale-x-100 transition-transform duration-150 origin-left" />
@@ -132,7 +132,7 @@ export default function Header() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="block py-3 px-4 text-mono text-sm text-[var(--silver)] hover:text-[var(--cream)] hover:bg-[var(--steel)] transition-colors uppercase tracking-wider border-l-2 border-transparent hover:border-[var(--warning)]"
+                className="block py-3 px-4 text-mono text-sm text-[var(--cream)]/70 hover:text-[var(--cream)] hover:bg-[var(--steel)] transition-colors uppercase tracking-wider border-l-2 border-transparent hover:border-[var(--warning)]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}

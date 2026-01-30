@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Industrial Color Palette */
+  /* Industrial Color Palette - WCAG AA Compliant */
   --black: #0a0a0a;
-  --charcoal: #1a1a1a;
-  --steel: #2d2d2d;
-  --gunmetal: #3d3d3d;
-  --concrete: #6b6b6b;
-  --silver: #a3a3a3;
+  --charcoal: #141414;
+  --steel: #252525;
+  --gunmetal: #353535;
+  --concrete: #9a9a9a;
+  --silver: #d0d0d0;
   --bone: #e8e4df;
   --cream: #f5f3ef;
   --white: #fafafa;
 
   /* Accent - Industrial Warning */
-  --warning: #ff6b00;
-  --warning-dark: #cc5500;
-  --danger: #dc2626;
+  --warning: #ff8c00;
+  --warning-dark: #e67300;
+  --danger: #ef4444;
 
   /* Functional */
   --border: #2d2d2d;
