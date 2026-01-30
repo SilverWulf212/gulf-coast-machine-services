@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import SparkEffect from "../components/SparkEffect";
+import DustEffect from "../components/DustEffect";
 
 export const metadata: Metadata = {
   title: "Gulf Coast Machine Services | 24/7 Industrial Equipment Repair",
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <DustEffect />
         <SparkEffect />
         <Header />
         <main>{children}</main>
