@@ -121,12 +121,18 @@ export default function Footer() {
             <p className="text-mono text-xs text-[var(--cream)]/70">
               © {new Date().getFullYear()} Gulf Coast Machine Services. All rights reserved.
             </p>
-            <div className="flex gap-6">
+            <div className="flex flex-wrap gap-6">
               <Link href="/faq" className="text-mono text-xs text-[var(--cream)]/70 hover:text-[var(--warning)] transition-colors">
                 FAQ
               </Link>
               <Link href="/blog" className="text-mono text-xs text-[var(--cream)]/70 hover:text-[var(--warning)] transition-colors">
                 Blog
+              </Link>
+              <Link href="/privacy" className="text-mono text-xs text-[var(--cream)]/70 hover:text-[var(--warning)] transition-colors">
+                Privacy
+              </Link>
+              <Link href="/terms" className="text-mono text-xs text-[var(--cream)]/70 hover:text-[var(--warning)] transition-colors">
+                Terms
               </Link>
             </div>
           </div>
