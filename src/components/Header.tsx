@@ -31,7 +31,7 @@ export default function Header() {
       }`}
     >
       {/* Top Bar - Emergency Line */}
-      <div className="bg-[var(--warning)] text-[var(--white)]">
+      <div className="bg-[var(--warning-dark)] text-[var(--white)]">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
           <span className="text-mono text-xs font-medium tracking-wide">
             24/7 EMERGENCY RESPONSE

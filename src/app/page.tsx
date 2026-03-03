@@ -219,7 +219,7 @@ export default function Home() {
               </div>
 
               {/* Floating Badge */}
-              <div className="absolute -bottom-6 right-8 bg-[var(--warning)] px-6 py-4 hover-glow">
+              <div className="absolute -bottom-6 right-8 bg-[var(--warning-dark)] px-6 py-4 hover-glow">
                 <span className="text-display text-3xl text-[var(--white)] block">24/7</span>
                 <span className="text-mono text-xs text-[var(--white)] uppercase tracking-wider">Response</span>
               </div>
