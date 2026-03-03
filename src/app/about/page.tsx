@@ -176,8 +176,8 @@ export default function About() {
             <div className="relative">
               <div className="relative aspect-[4/3] bg-[var(--charcoal)] overflow-hidden">
                 <Image
-                  src="/images/team.jpg"
-                  alt="Our Team at Work"
+                  src="/images/hero3.png"
+                  alt="Gulf Coast Machine Services Shop"
                   fill
                   className="object-cover"
                 />
