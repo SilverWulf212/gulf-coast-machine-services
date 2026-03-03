@@ -35,29 +35,29 @@ export default function ServiceAreas() {
   const ctaReveal = useScrollReveal(0.2);
 
   const majorCities = [
-    { name: "Houston", state: "TX", response: "<1 hr" },
-    { name: "Galveston", state: "TX", response: "<1.5 hr" },
-    { name: "Corpus Christi", state: "TX", response: "<2 hr" },
-    { name: "Beaumont", state: "TX", response: "<1.5 hr" },
-    { name: "Port Arthur", state: "TX", response: "<1.5 hr" },
-    { name: "Texas City", state: "TX", response: "<1 hr" },
+    { name: "Broussard", state: "LA", response: "HQ" },
+    { name: "Lafayette", state: "LA", response: "Local" },
+    { name: "Spring", state: "TX", response: "HQ" },
+    { name: "Houston", state: "TX", response: "Local" },
+    { name: "New Iberia", state: "LA", response: "Local" },
+    { name: "Lake Charles", state: "LA", response: "Regional" },
   ];
 
   const additionalCities = [
-    "League City",
-    "Baytown",
-    "Pasadena",
-    "La Porte",
-    "Deer Park",
-    "Channelview",
-    "Manvel",
-    "Alvin",
-    "Pearland",
-    "Friendswood",
-    "Kemah",
-    "Seabrook",
-    "Clear Lake Shores",
-    "El Lago",
+    "Abbeville",
+    "Youngsville",
+    "Scott",
+    "Crowley",
+    "Opelousas",
+    "The Woodlands",
+    "Conroe",
+    "Tomball",
+    "Cypress",
+    "Katy",
+    "Morgan City",
+    "Houma",
+    "Baton Rouge",
+    "Beaumont",
   ];
 
   const benefits = [
@@ -122,9 +122,9 @@ export default function ServiceAreas() {
           />
         </svg>
       ),
-      title: "Community Support",
+      title: "Two Locations",
       description:
-        "Supporting local businesses and contributing to our community's success since 2010.",
+        "API certified shops in Broussard, LA and Spring, TX serving the oil field for 25+ years.",
     },
   ];
 
@@ -151,9 +151,9 @@ export default function ServiceAreas() {
               <span className="text-[var(--warning)]">Areas</span>
             </h1>
             <p className="text-lg text-[var(--cream)]/80 max-w-2xl leading-relaxed">
-              Gulf Coast Machine Services proudly serves the Gulf Coast region
-              with fast, reliable industrial and commercial equipment repair. Our
-              local expertise ensures we understand the unique needs of your area.
+              Gulf Coast Machine Services proudly serves the oil field from
+              two API Licensed locations. Our shops in Broussard, LA and Spring, TX
+              provide precision machining services to the Gulf Coast region.
             </p>
           </div>
         </div>
@@ -274,17 +274,16 @@ export default function ServiceAreas() {
                 title="The Gulf Coast Region"
               />
               <p className="text-[var(--cream)]/80 leading-relaxed mb-6">
-                From Houston to Corpus Christi, Beaumont to Galveston, we cover
-                the entire Gulf Coast industrial corridor. Our strategically
-                positioned team ensures rapid response anywhere in our service
-                area.
+                From our Broussard, LA headquarters to our Spring, TX shop,
+                we cover the Gulf Coast oil field corridor. Parts shipping
+                available nationwide for machined components.
               </p>
               <ul className="space-y-3">
                 {[
-                  "24/7 emergency response",
-                  "Under 2-hour average arrival time",
-                  "Coverage across 50+ cities",
-                  "Dedicated Gulf Coast team",
+                  "Two API certified shop locations",
+                  "24/7 rush job capabilities",
+                  "Nationwide parts shipping",
+                  "25+ years serving the oil field",
                 ].map((item) => (
                   <li
                     key={item}
@@ -377,7 +376,7 @@ export default function ServiceAreas() {
                 Contact Us
               </Link>
               <a
-                href="tel:+15551234567"
+                href="tel:+13378373175"
                 className="btn-outline hover-lift flex items-center gap-2"
               >
                 <svg

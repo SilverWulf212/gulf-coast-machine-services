@@ -36,50 +36,50 @@ export default function Blog() {
   const ctaReveal = useScrollReveal(0.2);
 
   const featuredPost = {
-    title: "The Importance of Regular Generator Maintenance",
+    title: "Understanding Mud Motor Components and Maintenance",
     excerpt:
-      "Learn why scheduled maintenance is crucial for commercial generators and how it can prevent costly breakdowns. Regular inspections can identify potential issues before they become emergencies.",
+      "Learn about the critical components of mud motors and how proper machining and maintenance can extend their operational life in demanding downhole conditions.",
     date: "January 15, 2026",
-    category: "Maintenance",
+    category: "Machining",
     image: "/images/Google_AI_Studio_2025-08-29T14_40_03.454Z.png",
-    slug: "generator-maintenance-importance",
+    slug: "mud-motor-components-maintenance",
     readTime: "5 min read",
   };
 
   const posts = [
     {
-      title: "Common Industrial HVAC Problems and Solutions",
+      title: "Why API Certification Matters for Machine Shops",
       excerpt:
-        "Discover the most frequent issues affecting industrial HVAC systems and how our experts address them.",
+        "Discover why choosing an API Licensed machine shop ensures quality and reliability for your oil field components.",
       date: "January 10, 2026",
-      category: "HVAC",
+      category: "Quality",
       image: "/images/Google_AI_Studio_2025-08-29T14_40_32.509Z.png",
-      slug: "industrial-hvac-problems-solutions",
+      slug: "api-certification-machine-shops",
       readTime: "4 min read",
     },
     {
-      title: "Emergency Response: What to Do When Equipment Fails",
+      title: "Stabilizer Grinding: Specifications and Best Practices",
       excerpt:
-        "A guide for facility managers on handling equipment emergencies and minimizing operational downtime.",
+        "A guide to stabilizer grinding specifications, tolerances, and how precision grinding impacts directional drilling performance.",
       date: "January 5, 2026",
-      category: "Emergency",
+      category: "Machining",
       image: "/images/Google_AI_Studio_2025-08-29T14_40_42.666Z.png",
-      slug: "equipment-failure-emergency-response",
+      slug: "stabilizer-grinding-best-practices",
       readTime: "6 min read",
     },
     {
-      title: "The Benefits of Preventive Maintenance Programs",
+      title: "Oil Field Machining: From Fishing Tools to MWD Components",
       excerpt:
-        "Explore how regular maintenance schedules can extend equipment life and reduce overall operating costs.",
+        "An overview of the diverse machining services required by oil field operations and why precision matters.",
       date: "December 28, 2025",
-      category: "Maintenance",
+      category: "Oil Field",
       image: "/images/Google_AI_Studio_2025-08-29T14_41_48.058Z.png",
-      slug: "preventive-maintenance-benefits",
+      slug: "oil-field-machining-overview",
       readTime: "5 min read",
     },
   ];
 
-  const categories = ["All", "Maintenance", "HVAC", "Emergency", "Industry News"];
+  const categories = ["All", "Machining", "Oil Field", "Quality", "Industry News"];
 
   return (
     <div className="bg-[var(--black)] min-h-screen">
@@ -107,8 +107,8 @@ export default function Blog() {
               <span className="text-[var(--warning)]">Blog</span>
             </h1>
             <p className="text-lg text-[var(--cream)]/80 max-w-2xl mx-auto leading-relaxed">
-              Stay informed with the latest insights on industrial equipment
-              maintenance, repair tips, and industry best practices from the
+              Stay informed with the latest insights on oil field machining,
+              mud motor components, and industry best practices from the
               experts at Gulf Coast Machine Services.
             </p>
           </div>
@@ -305,7 +305,7 @@ export default function Blog() {
                 Contact Our Experts
               </Link>
               <a
-                href="tel:+15551234567"
+                href="tel:+13378373175"
                 className="btn-outline hover-lift flex items-center gap-2"
               >
                 <svg

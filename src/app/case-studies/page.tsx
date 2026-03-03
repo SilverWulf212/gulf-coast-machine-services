@@ -38,57 +38,57 @@ export default function CaseStudies() {
   const caseStudies = [
     {
       id: "01",
-      title: "Emergency Generator Repair",
-      subtitle: "Manufacturing Plant",
-      client: "ABC Manufacturing",
-      location: "Houston, TX",
+      title: "Rush Mud Motor Component Repair",
+      subtitle: "Drilling Operation",
+      client: "Oil Field Operator",
+      location: "Broussard, LA",
       challenge:
-        "A critical generator failure during peak production hours threatened to shut down the entire manufacturing operation.",
+        "Critical mud motor component failure during an active drilling operation required immediate precision machining to avoid costly rig downtime.",
       solution:
-        "Our emergency response team arrived within 30 minutes, diagnosed a faulty fuel pump, and had the system back online in under 2 hours.",
+        "Our 24/7 rush team received the damaged components and machined replacement parts to spec using our precision lathes and 4-axis mill capabilities.",
       results: [
-        "Minimized downtime to 2 hours",
-        "Avoided $50,000+ in lost production",
-        "Implemented preventive maintenance plan",
+        "Parts delivered within 24 hours",
+        "Drilling operation resumed on schedule",
+        "Components met all API specifications",
       ],
       image: "/images/Google_AI_Studio_2025-08-29T14_38_33.947Z.png",
-      stats: { response: "30 min", downtime: "2 hrs", saved: "$50K+" },
+      stats: { response: "2 hrs", downtime: "24 hrs", saved: "$100K+" },
     },
     {
       id: "02",
-      title: "HVAC System Overhaul",
-      subtitle: "Warehouse Facility",
-      client: "Gulf Coast Distribution",
-      location: "Galveston, TX",
+      title: "Stabilizer Grinding Project",
+      subtitle: "Directional Drilling",
+      client: "Drilling Services Co.",
+      location: "Spring, TX",
       challenge:
-        "Inefficient industrial HVAC system causing temperature fluctuations and high energy costs.",
+        "Large diameter stabilizers needed grinding to precise specifications for a directional drilling project with tight tolerances.",
       solution:
-        "Complete system audit, replacement of outdated components, and implementation of preventive maintenance schedule.",
+        "Utilized our stabilizer grinding capabilities (up to 30\" OD, 15 ft long) to grind multiple stabilizers to exact customer specifications.",
       results: [
-        "30% reduction in energy costs",
-        "Improved temperature control",
-        "Extended equipment lifespan by 5+ years",
+        "All stabilizers met tolerance specs",
+        "Completed ahead of schedule",
+        "Customer added us as preferred vendor",
       ],
       image: "/images/Google_AI_Studio_2025-08-29T14_39_21.706Z.png",
-      stats: { response: "Same day", downtime: "1 week", saved: "30% energy" },
+      stats: { response: "Same day", downtime: "3 days", saved: "On spec" },
     },
     {
       id: "03",
-      title: "Conveyor System Emergency",
-      subtitle: "Port Operations",
-      client: "Port Logistics Inc.",
-      location: "Port Arthur, TX",
+      title: "Custom Fishing Tool Fabrication",
+      subtitle: "Well Recovery",
+      client: "Fishing & Rental Co.",
+      location: "Broussard, LA",
       challenge:
-        "Critical conveyor belt failure at busy port facility, halting container operations.",
+        "Non-standard fishing tool required for a complex well recovery operation. No off-the-shelf solution available.",
       solution:
-        "Rapid on-site repair using specialized equipment and temporary bypass solutions while permanent fix was implemented.",
+        "Our welding and fabrication team designed and machined a custom fishing tool assembly using our full machining and welding capabilities.",
       results: [
-        "Operations resumed within 4 hours",
-        "Full repair completed off-hours",
-        "No further container delays",
+        "Custom tool delivered in 48 hours",
+        "Successful well recovery operation",
+        "Tool design retained for future use",
       ],
       image: "/images/Google_AI_Studio_2025-08-29T14_39_39.680Z.png",
-      stats: { response: "45 min", downtime: "4 hrs", saved: "$80K+" },
+      stats: { response: "4 hrs", downtime: "48 hrs", saved: "$200K+" },
     },
   ];
 
@@ -279,17 +279,16 @@ export default function CaseStudies() {
               ))}
             </div>
             <blockquote className="text-xl lg:text-2xl text-[var(--cream)] leading-relaxed mb-8">
-              &ldquo;Gulf Coast Machine Services saved us from what could have
-              been a catastrophic production shutdown. Their response time and
-              expertise are unmatched. They&apos;re now our go-to for all
-              equipment maintenance.&rdquo;
+              &ldquo;Gulf Coast Machine Services has been our go-to machine shop
+              for years. Their 24/7 rush capability and precision work keeps our
+              drilling operations running. API certified quality you can count on.&rdquo;
             </blockquote>
             <div>
               <p className="text-display text-lg text-[var(--cream)]">
-                Robert Chen
+                Satisfied Customer
               </p>
               <p className="text-mono text-xs text-[var(--cream)]/60 uppercase tracking-wider">
-                Operations Director, ABC Manufacturing
+                Oil Field Operations
               </p>
             </div>
           </div>
@@ -330,7 +329,7 @@ export default function CaseStudies() {
                 Get Started
               </Link>
               <a
-                href="tel:+15551234567"
+                href="tel:+13378373175"
                 className="btn-outline hover-lift flex items-center gap-2"
               >
                 <svg
@@ -365,7 +364,7 @@ export default function CaseStudies() {
               </p>
             </div>
             <a
-              href="tel:+15551234567"
+              href="tel:+13378373175"
               className="bg-[var(--black)] text-[var(--cream)] text-display text-lg px-8 py-4 uppercase tracking-wider hover:bg-[var(--charcoal)] transition-colors hover-lift flex items-center gap-3"
             >
               <svg

@@ -103,28 +103,8 @@ export default function Home() {
   const services = [
     {
       id: "01",
-      title: "Industrial HVAC",
-      desc: "Climate control for heavy industry. Repair, maintenance, optimization.",
-      icon: (
-        <svg className="size-8 icon-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="square" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-        </svg>
-      ),
-    },
-    {
-      id: "02",
-      title: "Generator Systems",
-      desc: "Backup power you can trust. Installation, repair, load testing.",
-      icon: (
-        <svg className="size-8 icon-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="square" d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-      ),
-    },
-    {
-      id: "03",
-      title: "Machinery Repair",
-      desc: "Production line down? We diagnose fast, fix faster.",
+      title: "Mud Motor Components",
+      desc: "Repair and manufacturing of mud motor components for the oil field industry.",
       icon: (
         <svg className="size-8 icon-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="square" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -133,23 +113,43 @@ export default function Home() {
       ),
     },
     {
+      id: "02",
+      title: "Oil Field Machining",
+      desc: "Fishing tools, drilling tools, packers, completion, MWD, LWD, cementing tools.",
+      icon: (
+        <svg className="size-8 icon-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="square" d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      ),
+      popular: true,
+    },
+    {
+      id: "03",
+      title: "Welding & Fabrication",
+      desc: "Full welding and fabrication services for oil field applications.",
+      icon: (
+        <svg className="size-8 icon-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="square" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+        </svg>
+      ),
+    },
+    {
       id: "04",
-      title: "24/7 Emergency",
-      desc: "Round-the-clock response. Minimum downtime guaranteed.",
+      title: "Stabilizer Grinding",
+      desc: "Stabilizer grinding up to 30&quot; OD and 15 feet long. 24/7 rush jobs available.",
       icon: (
         <svg className="size-8 icon-spin" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="square" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      popular: true,
     },
   ];
 
   const stats = [
-    { value: "15+", label: "Years Experience" },
-    { value: "500+", label: "Projects Completed" },
-    { value: "<2hr", label: "Avg Response Time" },
-    { value: "24/7", label: "Availability" },
+    { value: "25+", label: "Years Experience" },
+    { value: "36\"", label: "Max Swing OD" },
+    { value: "180\"", label: "Between Centers" },
+    { value: "24/7", label: "Rush Jobs" },
   ];
 
   return (
@@ -176,20 +176,20 @@ export default function Home() {
 
               {/* Headline */}
               <h1 className="text-display text-5xl sm:text-6xl lg:text-7xl text-[var(--cream)] leading-[0.9] mb-6 animate-slide-up delay-100">
-                Industrial<br />
+                Oil Field<br />
                 Machine<br />
                 <span className="text-[var(--warning)]">Specialists</span>
               </h1>
 
               {/* Subhead */}
               <p className="text-lg text-[var(--cream)]/80 max-w-md mb-10 leading-relaxed animate-slide-up delay-200">
-                When your equipment fails, production stops. We get you running again—fast.
-                24/7 emergency response across the Gulf Coast.
+                Servicing the oil field for 25+ years in the machining industry.
+                API Licensed Shop with two certified locations.
               </p>
 
               {/* CTAs */}
               <div className="flex flex-wrap gap-4 animate-slide-up delay-300">
-                <a href="tel:+15551234567" className="btn-industrial animate-pulse-glow hover-lift">
+                <a href="tel:+13378373175" className="btn-industrial animate-pulse-glow hover-lift">
                   <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="square" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
@@ -251,10 +251,10 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
               {[
-                { name: "Licensed & Insured", icon: "shield" },
-                { name: "EPA Certified", icon: "leaf" },
-                { name: "OSHA Compliant", icon: "check" },
-                { name: "BBB Accredited", icon: "star" },
+                { name: "API Licensed Shop", icon: "shield" },
+                { name: "Two Certified Locations", icon: "check" },
+                { name: "25+ Years Experience", icon: "star" },
+                { name: "24/7 Rush Jobs", icon: "shield" },
               ].map((badge) => (
                 <div key={badge.name} className="flex items-center gap-2 text-[var(--cream)]/70 hover:text-[var(--warning)] transition-colors">
                   {badge.icon === "shield" && (
@@ -356,22 +356,22 @@ export default function Home() {
               <div>
                 <span className="text-mono text-xs text-[var(--danger)] uppercase tracking-widest block mb-4 flex items-center gap-2">
                   <span className="size-2 bg-[var(--danger)] rounded-full animate-pulse" />
-                  Equipment Down?
+                  Rush Job Needed?
                 </span>
                 <h2 className="text-display text-4xl sm:text-5xl text-[var(--cream)] mb-6">
-                  We Respond<br />
-                  <span className="text-[var(--warning)]">Within Hours</span>
+                  24/7 Rush<br />
+                  <span className="text-[var(--warning)]">Job Capable</span>
                 </h2>
                 <p className="text-[var(--cream)]/80 max-w-md mb-8">
-                  Don&apos;t let equipment failure cost you thousands in lost production.
-                  Our emergency team is standing by 24/7.
+                  Don&apos;t let downtime cost you. Our machine shop handles rush jobs
+                  around the clock to keep your operations running.
                 </p>
                 <div className="flex flex-wrap gap-4">
-                  <a href="tel:+15551234567" className="btn-industrial hover-lift hover-glow">
+                  <a href="tel:+13378373175" className="btn-industrial hover-lift hover-glow">
                     <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="square" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    (555) 123-4567
+                    (337) 837-3175
                   </a>
                   <Link href="/contact" className="btn-outline hover-lift">
                     Request Quote
@@ -412,21 +412,21 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                quote: "Gulf Coast Machine Services saved us from what could have been a catastrophic production shutdown. Their response time is unmatched.",
-                author: "Robert Chen",
-                company: "ABC Manufacturing",
+                quote: "Gulf Coast Machine Services has been our go-to shop for mud motor component work. Their precision machining and fast turnaround keeps our rigs running.",
+                author: "Drilling Operator",
+                company: "Oil Field Services",
                 rating: 5,
               },
               {
-                quote: "We've been using their preventive maintenance program for 3 years. Equipment downtime has dropped by 60%. Worth every penny.",
-                author: "Maria Santos",
-                company: "Gulf Coast Distribution",
+                quote: "API certified quality and 24/7 rush capability. When we need precision parts fast, Gulf Coast delivers every time.",
+                author: "Operations Manager",
+                company: "Directional Drilling Co.",
                 rating: 5,
               },
               {
-                quote: "When our generator failed at 2 AM, they had a tech on-site within an hour. True 24/7 service that you can count on.",
-                author: "James Thompson",
-                company: "Port Logistics Inc.",
+                quote: "25+ years of experience shows in their work. From stabilizer grinding to custom fabrication, their machining quality is second to none.",
+                author: "Tool Manager",
+                company: "Fishing & Rental Services",
                 rating: 5,
               },
             ].map((testimonial, index) => (
@@ -481,12 +481,12 @@ export default function Home() {
                 Why Gulf Coast
               </span>
               <h2 className="text-display text-4xl text-[var(--cream)] mb-6">
-                Built For<br />Industry
+                Built For<br />Oil Field
               </h2>
               <div className="section-divider mb-6" />
               <p className="text-[var(--cream)]/80 leading-relaxed">
-                We understand that in industrial operations, every minute of downtime costs money.
-                That&apos;s why we&apos;ve built our entire operation around speed, reliability, and expertise.
+                We understand that in oil field operations, every minute of downtime costs money.
+                That&apos;s why we&apos;ve built our entire operation around precision machining and fast turnaround.
               </p>
             </div>
 
@@ -494,20 +494,20 @@ export default function Home() {
             <div className={`lg:col-span-2 grid sm:grid-cols-2 gap-8 stagger-children ${whyReveal.isVisible ? 'visible' : ''}`}>
               {[
                 {
-                  title: "Rapid Response",
-                  desc: "Average on-site arrival under 2 hours for emergency calls within our coverage area.",
+                  title: "API Licensed",
+                  desc: "Two API certified locations in Broussard, LA and Spring, TX.",
                 },
                 {
-                  title: "Certified Techs",
-                  desc: "Factory-trained specialists with decades of combined industrial experience.",
+                  title: "25+ Years",
+                  desc: "Decades of experience servicing the oil field machining industry.",
                 },
                 {
-                  title: "Local Expertise",
-                  desc: "Deep knowledge of Gulf Coast industries—oil & gas, manufacturing, logistics.",
+                  title: "Full Capabilities",
+                  desc: "36\" OD max swing, 180\" between centers, 4-axis mill, stabilizer grinding.",
                 },
                 {
-                  title: "No Hidden Fees",
-                  desc: "Transparent pricing. Detailed estimates before work begins. No surprises.",
+                  title: "24/7 Rush Jobs",
+                  desc: "Round-the-clock machining capability for urgent oil field needs.",
                 },
               ].map((feature) => (
                 <div key={feature.title} className="border-l-2 border-[var(--steel)] pl-6 hover:border-[var(--warning)] transition-colors hover-lift">

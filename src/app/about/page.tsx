@@ -38,38 +38,38 @@ export default function About() {
 
   const team = [
     {
-      name: "John Smith",
-      role: "Lead Technician",
+      name: "Broussard Shop",
+      role: "Louisiana Location",
       image: "/images/ChatGPT Image Jan 6, 2026, 05_42_43 PM.png",
-      bio: "15+ years experience in industrial HVAC systems",
+      bio: "436 North Eola, Broussard, LA 70570 - API Certified",
     },
     {
-      name: "Sarah Johnson",
-      role: "Generator Specialist",
+      name: "Spring Shop",
+      role: "Texas Location",
       image: "/images/ChatGPT Image Jan 6, 2026, 05_42_45 PM.png",
-      bio: "Certified in commercial generator repair and maintenance",
+      bio: "5053 FM 2920 Road, Spring, TX 77388 - API Certified",
     },
     {
-      name: "Mike Davis",
-      role: "Machinery Expert",
+      name: "Our Machinists",
+      role: "Expert Team",
       image: "/images/ChatGPT Image Jan 6, 2026, 05_42_46 PM.png",
-      bio: "Specializes in industrial machinery diagnostics and repair",
+      bio: "25+ years combined experience in oil field machining",
     },
   ];
 
   const commitments = [
-    "24/7 emergency response for critical breakdowns",
-    "Certified technicians with industry expertise",
-    "Comprehensive warranties on all repairs",
-    "Preventive maintenance programs to avoid future issues",
-    "Transparent pricing with no hidden fees",
+    "API Licensed Shop with two certified locations",
+    "24/7 rush job capabilities for urgent needs",
+    "25+ years of oil field machining experience",
+    "Precision machining up to 36\" OD max swing",
+    "Complete mud motor component repair and manufacturing",
   ];
 
   const stats = [
-    { value: "15+", label: "Years Experience" },
-    { value: "500+", label: "Projects Completed" },
-    { value: "50+", label: "Industrial Clients" },
-    { value: "98%", label: "Client Satisfaction" },
+    { value: "25+", label: "Years Experience" },
+    { value: "2", label: "API Certified Locations" },
+    { value: "36\"", label: "Max Swing OD" },
+    { value: "24/7", label: "Rush Job Capable" },
   ];
 
   return (
@@ -95,9 +95,9 @@ export default function About() {
               <span className="text-[var(--warning)]">Industry</span>
             </h1>
             <p className="text-lg text-[var(--cream)]/80 max-w-2xl leading-relaxed">
-              Since 2010, Gulf Coast Machine Services has been the trusted
-              partner for industrial and commercial equipment repair across the
-              Gulf Coast region.
+              Gulf Coast Machine Services, LLC has been servicing the oil field
+              for 25+ years in the machining industry. API Licensed Shop with
+              two certified locations.
             </p>
           </div>
         </div>
@@ -136,31 +136,30 @@ export default function About() {
             <div>
               <SectionHeader
                 tag="Our Story"
-                title="From Small Shop to Industry Leader"
+                title="25+ Years of Oil Field Machining"
               />
               <div className="space-y-6 text-[var(--cream)]/80 leading-relaxed">
                 <p>
-                  What started as a small operation has grown into a
-                  comprehensive service provider, but our commitment to quality
-                  and reliability remains unchanged. We understand that
-                  equipment failure can mean lost revenue and operational
-                  headaches.
+                  Gulf Coast Machine Services, LLC has been servicing the oil
+                  field for over 25 years in the machining industry. What started
+                  as a single shop has grown into an API Licensed operation with
+                  two certified locations.
                 </p>
                 <p>
-                  That&apos;s why we prioritize fast response times, expert
-                  diagnostics, and lasting solutions. Our team of certified
-                  technicians brings decades of combined experience to every
-                  job, ensuring your equipment runs at peak performance.
+                  We specialize in repair and manufacturing of mud motor
+                  components and machining for oil field applications including
+                  fishing tools, drilling tools, packers, completion tools, MWD,
+                  LWD, and cementing tools.
                 </p>
               </div>
 
               {/* Timeline */}
               <div className="mt-10 space-y-6">
                 {[
-                  { year: "2010", event: "Founded in Houston, TX" },
-                  { year: "2015", event: "Expanded to 24/7 emergency services" },
-                  { year: "2020", event: "Reached 500+ completed projects" },
-                  { year: "2024", event: "Serving entire Gulf Coast region" },
+                  { year: "Est.", event: "Founded in Broussard, Louisiana" },
+                  { year: "Growth", event: "Expanded to Spring, Texas location" },
+                  { year: "API", event: "Both locations API certified" },
+                  { year: "Today", event: "25+ years serving the oil field" },
                 ].map((item, index) => (
                   <div key={item.year} className="flex items-center gap-6">
                     <span className="text-display text-2xl text-[var(--warning)] w-20">

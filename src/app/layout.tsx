@@ -9,22 +9,22 @@ import { StickyQuoteCTA } from "../components/ui";
 export const metadata: Metadata = {
   metadataBase: new URL("https://gulfcoastmachineservices.com"),
   title: {
-    default: "Gulf Coast Machine Services | 24/7 Industrial Equipment Repair",
+    default: "Gulf Coast Machine Services, LLC | Oil Field Machining & Mud Motor Components",
     template: "%s | Gulf Coast Machine Services",
   },
   description:
-    "Industrial machine repair specialists serving the Gulf Coast region. 24/7 emergency response for HVAC, generators, and industrial machinery in Houston, Galveston, and surrounding areas.",
+    "Gulf Coast Machine Services has been servicing the oil field for 25+ years in the machining industry. API Licensed Shop with locations in Broussard, LA and Spring, TX. Mud motor components, fishing tools, drilling tools, welding & fabrication.",
   keywords: [
-    "industrial machine repair",
-    "Gulf Coast",
-    "emergency repair",
-    "HVAC repair",
-    "generator repair",
-    "Houston",
-    "Galveston",
-    "industrial HVAC",
-    "24/7 emergency service",
-    "equipment maintenance",
+    "oil field machining",
+    "mud motor components",
+    "API licensed machine shop",
+    "fishing tools",
+    "drilling tools",
+    "stabilizer grinding",
+    "Broussard LA",
+    "Spring TX",
+    "welding fabrication",
+    "oil field repair",
   ],
   authors: [{ name: "Gulf Coast Machine Services" }],
   openGraph: {
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://gulfcoastmachineservices.com",
     siteName: "Gulf Coast Machine Services",
-    title: "Gulf Coast Machine Services | 24/7 Industrial Equipment Repair",
+    title: "Gulf Coast Machine Services, LLC | Oil Field Machining & Mud Motor Components",
     description:
-      "Industrial machine repair specialists serving the Gulf Coast region. 24/7 emergency response for HVAC, generators, and industrial machinery.",
+      "Servicing the oil field for 25+ years. API Licensed Shop in Broussard, LA and Spring, TX. Mud motor components, fishing tools, drilling tools, welding & fabrication.",
     images: [
       {
         url: "/images/Hero1.png",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gulf Coast Machine Services | 24/7 Industrial Equipment Repair",
+    title: "Gulf Coast Machine Services, LLC | Oil Field Machining",
     description:
-      "Industrial machine repair specialists serving the Gulf Coast region. 24/7 emergency response.",
+      "Servicing the oil field for 25+ years. API Licensed Shop in Broussard, LA and Spring, TX.",
     images: ["/images/Hero1.png"],
   },
   robots: {
@@ -73,31 +73,39 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://gulfcoastmachineservices.com/#organization",
-  name: "Gulf Coast Machine Services",
+  name: "Gulf Coast Machine Services, LLC",
   description:
-    "Industrial machine repair specialists serving the Gulf Coast region with 24/7 emergency response for HVAC, generators, and industrial machinery.",
+    "Servicing the oil field for 25+ years in the machining industry. API Licensed Shop specializing in mud motor components, oil field machining, welding and fabrication.",
   url: "https://gulfcoastmachineservices.com",
-  telephone: "+1-555-123-4567",
-  email: "info@gulfcoastmachines.com",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "123 Industrial Blvd",
-    addressLocality: "Gulf City",
-    addressRegion: "TX",
-    postalCode: "12345",
-    addressCountry: "US",
-  },
+  telephone: "+1-337-837-3175",
+  address: [
+    {
+      "@type": "PostalAddress",
+      streetAddress: "436 North Eola",
+      addressLocality: "Broussard",
+      addressRegion: "LA",
+      postalCode: "70570",
+      addressCountry: "US",
+    },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "5053 FM 2920 Road",
+      addressLocality: "Spring",
+      addressRegion: "TX",
+      postalCode: "77388",
+      addressCountry: "US",
+    },
+  ],
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 29.7604,
-    longitude: -95.3698,
+    latitude: 30.1462,
+    longitude: -91.9587,
   },
   areaServed: [
+    { "@type": "City", name: "Broussard", addressRegion: "LA" },
+    { "@type": "City", name: "Lafayette", addressRegion: "LA" },
+    { "@type": "City", name: "Spring", addressRegion: "TX" },
     { "@type": "City", name: "Houston", addressRegion: "TX" },
-    { "@type": "City", name: "Galveston", addressRegion: "TX" },
-    { "@type": "City", name: "Corpus Christi", addressRegion: "TX" },
-    { "@type": "City", name: "Beaumont", addressRegion: "TX" },
-    { "@type": "City", name: "Port Arthur", addressRegion: "TX" },
   ],
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
@@ -115,33 +123,33 @@ const jsonLd = {
   },
   priceRange: "$$",
   image: "https://gulfcoastmachineservices.com/images/Hero1.png",
-  sameAs: [],
+  sameAs: ["https://www.facebook.com/gulfcoastmachineservices"],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Industrial Services",
+    name: "Oil Field Machining Services",
     itemListElement: [
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Industrial HVAC Repair",
-          description: "Complete repair and maintenance for industrial heating, ventilation, and air conditioning systems.",
+          name: "Mud Motor Component Repair & Manufacturing",
+          description: "Repair and manufacturing of mud motor components for oil field applications.",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Generator Repair & Maintenance",
-          description: "Commercial and industrial generator installation, repair, and preventive maintenance.",
+          name: "Oil Field Machining",
+          description: "Machining for fishing tools, drilling tools, packers, completion, MWD, LWD, and cementing tools.",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "24/7 Emergency Response",
-          description: "Round-the-clock emergency repair services with rapid response times.",
+          name: "Welding & Fabrication",
+          description: "Full welding and fabrication services for oil field applications.",
         },
       },
     ],

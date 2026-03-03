@@ -38,56 +38,56 @@ export default function Services() {
   const services = [
     {
       id: "01",
-      title: "Industrial HVAC Repair & Maintenance",
+      title: "Mud Motor Component Repair & Manufacturing",
       description:
-        "Complete repair and preventive maintenance for industrial heating, ventilation, and air conditioning systems. We handle everything from routine tune-ups to emergency repairs.",
+        "Specialized repair and manufacturing of mud motor components for the oil field industry. Our precision machining ensures reliable performance downhole.",
       image: "/images/Google_AI_Studio_2025-08-29T14_37_43.625Z.png",
       features: [
-        "Emergency repairs",
-        "Preventive maintenance",
-        "System upgrades",
-        "Energy efficiency audits",
+        "Rotor & stator repair",
+        "Component manufacturing",
+        "Precision machining",
+        "Quality inspection",
       ],
     },
     {
       id: "02",
-      title: "Commercial Generator Services",
+      title: "Oil Field Machining",
       description:
-        "Expert installation, repair, and maintenance of commercial generators. Keep your business running during power outages with reliable backup power solutions.",
+        "Complete machining services for oil field applications including fishing tools, drilling tools, packers, completion tools, MWD, LWD, and cementing tools.",
       image: "/images/Google_AI_Studio_2025-08-29T14_37_52.840Z.png",
       features: [
-        "Generator repair",
-        "Installation services",
-        "Load testing",
-        "Fuel system maintenance",
+        "Fishing tools",
+        "Drilling tools",
+        "Packers & completion tools",
+        "MWD & LWD tools",
       ],
+      popular: true,
     },
     {
       id: "03",
-      title: "Industrial Machinery Maintenance",
+      title: "Welding & Fabrication",
       description:
-        "Comprehensive maintenance and repair services for all types of industrial machinery and equipment. Minimize downtime with our expert technicians.",
+        "Full welding and fabrication services for oil field applications. Custom fabrication to meet your exact specifications.",
       image: "/images/Google_AI_Studio_2025-08-29T14_38_13.992Z.png",
       features: [
-        "Diagnostic services",
-        "Parts replacement",
-        "Performance optimization",
-        "Safety inspections",
+        "Custom fabrication",
+        "Structural welding",
+        "Repair welding",
+        "Material sourcing",
       ],
     },
     {
       id: "04",
-      title: "24/7 Emergency Services",
+      title: "Stabilizer Grinding & CNC Machining",
       description:
-        "When equipment fails, every minute counts. Our emergency response team is available 24/7 to get your operations back online as quickly as possible.",
+        "Stabilizer grinding up to 30\" OD and 15 feet long. 4-axis mill capabilities. Maximum swing of 36\" OD with 180\" between centers.",
       image: "/images/Google_AI_Studio_2025-08-29T14_38_29.720Z.png",
       features: [
-        "24/7 availability",
-        "Rapid response",
-        "On-site repairs",
-        "Temporary solutions",
+        "Up to 30\" OD grinding",
+        "4-axis mill capabilities",
+        "36\" OD max swing",
+        "Spindle holes 3\" to 12 1/4\"",
       ],
-      popular: true,
     },
   ];
 
@@ -111,14 +111,13 @@ export default function Services() {
               </span>
             </div>
             <h1 className="text-display text-5xl sm:text-6xl lg:text-7xl text-[var(--cream)] leading-[0.9] mb-6">
-              Industrial<br />
-              <span className="text-[var(--warning)]">Solutions</span>
+              Machining<br />
+              <span className="text-[var(--warning)]">Services</span>
             </h1>
             <p className="text-lg text-[var(--cream)]/80 max-w-2xl leading-relaxed">
-              Gulf Coast Machine Services provides comprehensive industrial and
-              commercial equipment repair and maintenance. From emergency repairs
-              to preventive maintenance, we&apos;re your trusted partner for all
-              your machinery needs.
+              Gulf Coast Machine Services provides comprehensive oil field machining
+              services. From mud motor components to stabilizer grinding, we&apos;re
+              your trusted API Licensed partner for precision machining.
             </p>
           </div>
         </div>
@@ -240,7 +239,7 @@ export default function Services() {
                     Discuss Your Project
                   </Link>
                   <a
-                    href="tel:+15551234567"
+                    href="tel:+13378373175"
                     className="btn-outline hover-lift flex items-center gap-2"
                   >
                     <svg

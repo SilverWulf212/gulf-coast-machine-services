@@ -6,21 +6,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Service slugs
   const services = [
-    'hvac-repair',
-    'generator-repair',
-    'machinery-repair',
-    'emergency-services',
-    'preventive-maintenance',
+    'mud-motor-components',
+    'oil-field-machining',
+    'welding-fabrication',
+    'stabilizer-grinding',
   ]
 
   // City slugs
   const cities = [
+    'broussard',
+    'lafayette',
+    'spring',
     'houston',
-    'galveston',
-    'corpus-christi',
-    'beaumont',
-    'port-arthur',
-    'texas-city',
+    'new-iberia',
+    'lake-charles',
   ]
 
   return [

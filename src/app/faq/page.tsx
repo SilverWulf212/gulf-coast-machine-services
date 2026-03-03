@@ -36,57 +36,57 @@ export default function FAQ() {
 
   const faqCategories = [
     {
-      title: "Services & Equipment",
+      title: "Services & Capabilities",
       faqs: [
         {
-          question: "Do you offer 24/7 emergency services?",
+          question: "Do you offer 24/7 rush job services?",
           answer:
-            "Yes, Gulf Coast Machine Services provides 24/7 emergency repair services. We understand that equipment failures can happen at any time, so our team is always ready to respond quickly to minimize your downtime.",
+            "Yes, Gulf Coast Machine Services provides 24/7 rush job capabilities. We understand that oil field operations can't wait, so our shops are ready to handle urgent machining needs around the clock.",
         },
         {
-          question: "What types of equipment do you service?",
+          question: "What types of components do you machine?",
           answer:
-            "We specialize in industrial HVAC systems, commercial generators, industrial machinery, and related equipment. Our technicians are trained to handle a wide range of industrial and commercial equipment repairs and maintenance.",
+            "We specialize in mud motor components, fishing tools, drilling tools, packers, completion tools, MWD, LWD, and cementing tools. We also provide welding and fabrication services and stabilizer grinding up to 30\" OD and 15 feet long.",
         },
         {
-          question: "Can you work on equipment while it's in operation?",
+          question: "What are your machining capabilities?",
           answer:
-            "In many cases, yes. Our technicians are trained to perform repairs with minimal disruption to your operations. However, for safety reasons, some repairs may require temporary shutdowns. We'll always discuss the best approach with you.",
+            "Our shops feature a maximum swing of 36\" OD, lathe capacity of 180\" between centers, spindle hole sizes from 3\" to 12 1/4\", 4-axis mill capabilities, and steady rest work up to 18\" OD.",
         },
       ],
     },
     {
-      title: "Response & Coverage",
+      title: "Locations & Certifications",
       faqs: [
         {
-          question: "How quickly can you respond to an emergency?",
+          question: "Are you an API Licensed Shop?",
           answer:
-            "For emergency situations, we aim to arrive within 1-2 hours in most Gulf Coast areas. Response times may vary based on location and traffic conditions. We prioritize critical breakdowns to get your operations back online as quickly as possible.",
+            "Yes, Gulf Coast Machine Services is an API Licensed Shop with two certified locations—one in Broussard, Louisiana and one in Spring, Texas.",
         },
         {
-          question: "What areas do you serve?",
+          question: "Where are your shop locations?",
           answer:
-            "We serve the entire Gulf Coast region, including Houston, Galveston, Corpus Christi, Beaumont, Port Arthur, and surrounding communities. If you're unsure if we service your specific location, please contact us to confirm.",
+            "We have two locations: 436 North Eola, Broussard, LA 70570 (Phone: 337-837-3175) and 5053 FM 2920 Road, Spring, TX 77388 (Phone: 281-907-0430).",
         },
       ],
     },
     {
-      title: "Pricing & Warranties",
+      title: "Process & Quality",
       faqs: [
         {
           question: "Do you provide estimates before starting work?",
           answer:
-            "Yes, we provide detailed estimates for all repair work. For emergency situations, we'll provide an estimate as quickly as possible. We believe in transparent pricing with no hidden fees.",
+            "Yes, we provide detailed estimates for all machining work. Contact either of our locations for a quote on your specific project requirements.",
         },
         {
-          question: "Do you offer warranties on your repairs?",
+          question: "Can you ship machined parts?",
           answer:
-            "Yes, all our repairs come with a comprehensive warranty. The specific warranty terms depend on the type of repair and equipment, but we stand behind our work and want you to be completely satisfied with our services.",
+            "Yes, we can ship machined components nationwide. Contact us to discuss shipping arrangements for your project.",
         },
         {
-          question: "Do you provide preventive maintenance services?",
+          question: "How long have you been in business?",
           answer:
-            "Absolutely. We offer comprehensive preventive maintenance programs designed to keep your equipment running efficiently and prevent costly breakdowns. Regular maintenance can extend equipment life and reduce overall operating costs.",
+            "Gulf Coast Machine Services has been servicing the oil field for over 25 years in the machining industry, providing reliable precision machining and fabrication services.",
         },
       ],
     },
@@ -118,9 +118,9 @@ export default function FAQ() {
               <span className="text-[var(--warning)]">Questions</span>
             </h1>
             <p className="text-lg text-[var(--cream)]/80 max-w-2xl mx-auto leading-relaxed">
-              Find answers to common questions about our services, response
-              times, and how we can help keep your industrial and commercial
-              equipment running smoothly.
+              Find answers to common questions about our machining services,
+              capabilities, locations, and how we can help with your oil field
+              machining needs.
             </p>
           </div>
         </div>
@@ -300,7 +300,7 @@ export default function FAQ() {
                 Contact Us
               </Link>
               <a
-                href="tel:+15551234567"
+                href="tel:+13378373175"
                 className="btn-outline hover-lift flex items-center gap-2"
               >
                 <svg

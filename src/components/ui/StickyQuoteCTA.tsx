@@ -9,7 +9,7 @@ interface StickyQuoteCTAProps {
 }
 
 export function StickyQuoteCTA({
-  phone = "+15551234567",
+  phone = "+13378373175",
   showAfterScroll = 500,
 }: StickyQuoteCTAProps) {
   const [isVisible, setIsVisible] = useState(false);

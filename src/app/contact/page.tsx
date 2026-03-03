@@ -44,86 +44,59 @@ export default function Contact() {
   const heroReveal = useScrollReveal(0.1);
   const formReveal = useScrollReveal(0.1);
 
+  const phoneIcon = (
+    <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="square" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+    </svg>
+  );
+  const locationIcon = (
+    <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="square" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+      <path strokeLinecap="square" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+    </svg>
+  );
+  const faxIcon = (
+    <svg className="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="square" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+    </svg>
+  );
+
   const contactInfo = [
     {
-      label: "Phone",
-      value: "(555) 123-4567",
-      href: "tel:+15551234567",
-      icon: (
-        <svg
-          className="size-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="square"
-            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-          />
-        </svg>
-      ),
+      label: "Broussard, LA",
+      value: "(337) 837-3175",
+      href: "tel:+13378373175",
+      icon: phoneIcon,
     },
     {
-      label: "Email",
-      value: "info@gulfcoastmachines.com",
-      href: "mailto:info@gulfcoastmachines.com",
-      icon: (
-        <svg
-          className="size-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="square"
-            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-          />
-        </svg>
-      ),
-    },
-    {
-      label: "Address",
-      value: "123 Industrial Blvd, Gulf City, TX 12345",
+      label: "Broussard Fax",
+      value: "(337) 837-6044",
       href: null,
-      icon: (
-        <svg
-          className="size-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="square"
-            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-          />
-          <path
-            strokeLinecap="square"
-            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-          />
-        </svg>
-      ),
+      icon: faxIcon,
     },
     {
-      label: "Hours",
-      value: "24/7 Emergency Services",
+      label: "Broussard Address",
+      value: "436 North Eola, Broussard, LA 70570",
       href: null,
-      icon: (
-        <svg
-          className="size-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="square"
-            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      ),
+      icon: locationIcon,
+    },
+    {
+      label: "Spring, TX",
+      value: "(281) 907-0430",
+      href: "tel:+12819070430",
+      icon: phoneIcon,
+    },
+    {
+      label: "Spring Fax",
+      value: "(281) 907-0648",
+      href: null,
+      icon: faxIcon,
+    },
+    {
+      label: "Spring Address",
+      value: "5053 FM 2920 Road, Spring, TX 77388",
+      href: null,
+      icon: locationIcon,
     },
   ];
 
@@ -150,9 +123,9 @@ export default function Contact() {
               <span className="text-[var(--warning)]">Us</span>
             </h1>
             <p className="text-lg text-[var(--cream)]/80 max-w-2xl leading-relaxed">
-              Need emergency repair or have questions about our services? Get in
-              touch with Gulf Coast Machine Services today. We&apos;re here to
-              help keep your operations running smoothly.
+              Need a rush job or have questions about our machining services? Get in
+              touch with Gulf Coast Machine Services today. Two API Licensed locations
+              ready to serve you.
             </p>
           </div>
         </div>
@@ -193,7 +166,7 @@ export default function Contact() {
                         breakdowns to minimize your downtime.
                       </p>
                       <a
-                        href="tel:+15551234567"
+                        href="tel:+13378373175"
                         className="btn-industrial text-sm py-2 px-4 inline-flex"
                       >
                         <svg
@@ -254,11 +227,11 @@ export default function Contact() {
                 </p>
                 <ul className="space-y-2">
                   {[
-                    "Houston and surrounding areas",
-                    "Galveston and coastal communities",
-                    "Corpus Christi and South Texas",
-                    "Beaumont and Port Arthur",
-                    "All Gulf Coast industrial zones",
+                    "Broussard, LA and surrounding areas",
+                    "Lafayette, LA and Acadiana region",
+                    "Spring, TX and Houston metro",
+                    "Gulf Coast oil field regions",
+                    "Nationwide shipping available",
                   ].map((area) => (
                     <li
                       key={area}
@@ -357,18 +330,19 @@ export default function Contact() {
                       type="tel"
                       id="phone"
                       name="phone"
-                      placeholder="(555) 123-4567"
+                      placeholder="(337) 837-3175"
                     />
                     <FormSelect label="Service Needed" id="service" name="service">
                       <option value="">Select a service</option>
-                      <option value="hvac">Industrial HVAC Repair</option>
-                      <option value="generator">
-                        Commercial Generator Services
+                      <option value="mud-motor">Mud Motor Components</option>
+                      <option value="machining">
+                        Oil Field Machining
                       </option>
-                      <option value="machinery">
-                        Industrial Machinery Maintenance
+                      <option value="welding">
+                        Welding &amp; Fabrication
                       </option>
-                      <option value="emergency">Emergency Services</option>
+                      <option value="stabilizer">Stabilizer Grinding</option>
+                      <option value="rush">24/7 Rush Job</option>
                       <option value="other">Other</option>
                     </FormSelect>
                   </div>
@@ -449,7 +423,7 @@ export default function Contact() {
               </p>
             </div>
             <a
-              href="tel:+15551234567"
+              href="tel:+13378373175"
               className="bg-[var(--black)] text-[var(--cream)] text-display text-lg px-8 py-4 uppercase tracking-wider hover:bg-[var(--charcoal)] transition-colors hover-lift flex items-center gap-3"
             >
               <svg
@@ -464,7 +438,7 @@ export default function Contact() {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              (555) 123-4567
+              (337) 837-3175
             </a>
           </div>
         </div>

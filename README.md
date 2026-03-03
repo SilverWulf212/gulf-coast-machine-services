@@ -1,13 +1,14 @@
-# Gulf Coast Machine Services
+# Gulf Coast Machine Services, LLC
 
-A professional website for Gulf Coast Machine Services, providing 24/7 emergency machine repair and maintenance services across the Gulf Coast region.
+A professional website for Gulf Coast Machine Services, LLC — servicing the oil field for 25+ years in the machining industry. API Licensed Shop with two certified locations.
 
 ## Services
 
-- Industrial HVAC Repair & Maintenance
-- Commercial Generator Services
-- Industrial Machinery Maintenance
-- 24/7 Emergency Services
+- Mud Motor Component Repair & Manufacturing
+- Oil Field Machining (fishing tools, drilling tools, packers, completion, MWD, LWD, cementing tools)
+- Welding & Fabrication
+- Stabilizer Grinding (up to 30" OD, 15 feet long)
+- 24/7 Rush Jobs
 
 ## Features
 
