@@ -31,7 +31,7 @@ export default function Header() {
       }`}
     >
       {/* Top Bar - Emergency Line */}
-      <div className="bg-[var(--warning)] text-[var(--black)]">
+      <div className="bg-[var(--warning)] text-[var(--white)]">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
           <span className="text-mono text-xs font-medium tracking-wide">
             24/7 EMERGENCY RESPONSE
@@ -46,7 +46,7 @@ export default function Header() {
               </svg>
               LA: (337) 837-3175
             </a>
-            <span className="text-[var(--black)]/40">|</span>
+            <span className="text-[var(--white)]/40">|</span>
             <a
               href="tel:+12819070430"
               className="text-display text-sm font-bold hover:underline"

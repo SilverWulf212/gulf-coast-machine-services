@@ -202,12 +202,13 @@ export default function Home() {
             </div>
 
             {/* Right - Hero Image with Parallax */}
-            <div className="relative animate-slide-in-right delay-200">
+            <div className="relative animate-fade-in delay-200">
               <div className="relative aspect-[4/3] bg-[var(--charcoal)] overflow-hidden shimmer">
                 <Image
                   src="/images/Hero1.png"
-                  alt="Industrial machinery"
+                  alt="Gulf Coast Machine Services - Oil Field Machining"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                   priority
                 />
@@ -383,8 +384,9 @@ export default function Home() {
                 <div className="aspect-video bg-[var(--black)] relative overflow-hidden">
                   <Image
                     src="/images/hero2.png"
-                    alt="Emergency repair team"
+                    alt="Gulf Coast Machine Services rush job capabilities"
                     fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover opacity-80"
                   />
                   <div className="absolute inset-0 border-4 border-[var(--warning)] m-4" />
