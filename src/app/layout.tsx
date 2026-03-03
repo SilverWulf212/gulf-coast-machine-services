@@ -3,8 +3,7 @@ import { Bebas_Neue, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import SparkEffect from "../components/SparkEffect";
-import DustEffect from "../components/DustEffect";
+import LazyEffects from "../components/LazyEffects";
 import { StickyQuoteCTA } from "../components/ui";
 
 const bebasNeue = Bebas_Neue({
@@ -192,8 +191,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
-        <DustEffect />
-        <SparkEffect />
+        <LazyEffects />
         <Header />
         <main>{children}</main>
         <Footer />

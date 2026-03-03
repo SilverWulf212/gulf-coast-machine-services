@@ -211,6 +211,7 @@ export default function Home() {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
                   priority
+                  fetchPriority="high"
                 />
                 {/* Corner Accents */}
                 <div className="absolute -bottom-4 -left-4 w-24 h-24 border-l-4 border-b-4 border-[var(--warning)]" />
@@ -386,7 +387,8 @@ export default function Home() {
                     src="/images/hero2.png"
                     alt="Gulf Coast Machine Services rush job capabilities"
                     fill
-                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1280px) 45vw, 576px"
+                    quality={65}
                     className="object-cover opacity-80"
                   />
                   <div className="absolute inset-0 border-4 border-[var(--warning)] m-4" />
